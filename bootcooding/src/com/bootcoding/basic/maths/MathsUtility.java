@@ -2,7 +2,7 @@ package com.bootcoding.basic.maths;
 
 public class MathsUtility {
 
-    public static int getASquareMinusBSquare(int a, int b){
+    public static int getASquareMinusBSquareMethod(int a, int b){
         return ((a-b)*(a+b));
     // a2 – b2 = (a – b)(a + b)
 
@@ -19,7 +19,7 @@ public class MathsUtility {
 
     public static void main(String[] args) {
         MathsUtility object=new MathsUtility();
-        System.out.println("a^2+b^2= "+getASquareMinusBSquare(6,5));
+        System.out.println("a^2+b^2= "+getASquareMinusBSquareMethod(6,5));
     }
 
 
